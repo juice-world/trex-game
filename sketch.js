@@ -3,6 +3,9 @@ var bowImage, arrowImage, green_balloonImage, red_balloonImage, pink_balloonImag
 
 var score=0;
 var arrow;
+var gamestate;
+var gamestate=play;
+gamestate=end;
 function preload(){
   
   backgroundImage = loadImage("background0.png");
